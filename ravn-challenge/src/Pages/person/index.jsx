@@ -22,7 +22,6 @@ export const PersonPage = () => {
     React.useEffect(() => {
         getData();
     }, [id])
-    console.log(person);
     return (
         <div className="personContainer">
             <div className="personCard">

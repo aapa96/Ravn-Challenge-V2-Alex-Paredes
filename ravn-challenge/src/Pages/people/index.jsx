@@ -32,8 +32,7 @@ export const PeoplePage = (props) => {
         return () => {
             isHere = false;
         }
-    }, [])
-    console.log(people);
+    }, []) 
     return (
         <div className="peopleContainer">
             {
