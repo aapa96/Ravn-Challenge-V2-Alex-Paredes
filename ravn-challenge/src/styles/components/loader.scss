@@ -2,26 +2,29 @@
     width: 100%;
     height: 80px;
     position: relative;
-
+    background-color: transparent;
     .cs-loader {
+        background-color: transparent;
         position: absolute;
         top: 0;
         left: 0;
         height: 100%;
         width: 100%;
     }
-
+    
     .cs-loader-inner {
+        background-color: transparent;
         transform: translateY(-50%);
         top: 50%;
         position: absolute;
         width: calc(100% - 200px);
-        color: #000;
+        color: #feda4a;
         padding: 0 100px;
         text-align: center;
     }
-
+    
     .cs-loader-inner label {
+        background-color: transparent;
         font-size: 20px;
         opacity: 0;
         display: inline-block;

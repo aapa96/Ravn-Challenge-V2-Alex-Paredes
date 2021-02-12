@@ -1,0 +1,67 @@
+.personContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+    .personCard {
+        margin-bottom: 50px;
+        position: relative;
+        width: 100%; 
+        max-width: 700px;
+        padding:20px 0px; 
+        border-radius: 10px;
+        background-color: #fff;
+        .block{
+            background-color: #fff;
+            flex-direction: column;
+            display: flex;
+            align-items: center; 
+            width: 100%;
+        }
+        .item{
+            width: 100%;
+            display: flex;
+            height: 35px;
+            .key{
+                padding:0px 5px;
+                margin-right: 5px;
+                width: 50%;
+                display: flex;
+                height: 100%;
+                align-items: center;
+                justify-content: flex-end;
+                text-transform: capitalize;
+                color:#aaa;
+                font-size: calc(0.25em + 1vh);
+            }
+            .value{
+                padding:0px 5px;
+                display: flex;
+                height: 100%;
+                width: 50%;
+                font-weight: 600;
+                align-items: center;
+                justify-content: flex-start;
+                text-transform: capitalize;
+                font-size: calc(0.3em + 1vh);
+            }
+        }
+        .divider{
+            width: 80%;
+            height: 2px;
+            background: #feda4a;
+            margin: 20px 0px;
+        }
+        .dividerChild{
+            width: 80%;
+            height: 0.5px;
+            background: #bbb;
+            margin: 20px 0px;
+        }
+    }
+}
+
+h4{
+    margin: 00px 0px 10px 0px;
+}

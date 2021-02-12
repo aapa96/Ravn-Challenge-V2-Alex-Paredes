@@ -1,0 +1,14 @@
+.peopleContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .peopleCard {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px;
+        background: transparent;
+    }
+}
